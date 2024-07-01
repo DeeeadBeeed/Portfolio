@@ -2,9 +2,9 @@
 
 import { HoverEffect } from '@/components/ui/card-hover-effect';
 import React from 'react';
-import { SiReact,SiTailwindcss,SiGit,SiMongodb, SiPostgresql, SiNextdotjs, SiExpress, SiNodedotjs } from 'react-icons/si';
+import { SiReact,SiTailwindcss,SiGit,SiMongodb, SiPostgresql, SiNextdotjs, SiExpress, SiNodedotjs, SiTypescript } from 'react-icons/si';
 
-const skills = [{ text: 'React', Icon: SiReact },{ text: 'Tailwind', Icon: SiTailwindcss},{ text: 'Git', Icon: SiGit },{ text: 'MongoDB', Icon: SiMongodb },{ text: 'Postgres', Icon: SiPostgresql },{ text: 'Next.js', Icon: SiNextdotjs },{ text: 'Express', Icon: SiExpress },{ text: 'Node.js', Icon: SiNodedotjs }];
+const skills = [{ text: 'React', Icon: SiReact },{ text: 'Tailwind', Icon: SiTailwindcss},{ text: 'Git', Icon: SiGit },{ text: 'MongoDB', Icon: SiMongodb },{ text: 'Postgres', Icon: SiPostgresql },{ text: 'Next.js', Icon: SiNextdotjs },{ text: 'Express', Icon: SiExpress },{ text: 'Node.js', Icon: SiNodedotjs },{ text: 'TypeScript', Icon: SiTypescript}];
 
 export default function Skills() {
   return (
